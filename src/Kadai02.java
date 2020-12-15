@@ -9,6 +9,14 @@ public class Kadai02 {
 	 * @return sの中に入っていたcの文字数
 	 */
 	int countString(String s,char c) {
-		return -1;
+		int count = 0;
+
+		for(char a: s.toCharArray()) {
+			if(a == c) {
+				count++;
+			}
+		}
+		return count;
 	}
+
 }
