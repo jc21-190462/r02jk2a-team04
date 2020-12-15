@@ -8,7 +8,14 @@ public class Kadai05 {
 	 * @return 配列の中の最大値
 	 */
 	int getMax(int[] d) {
-		
-		return -1;
+
+		int getMax = d[0];
+
+		for(int i = 1; i < d.length; i++) {
+			if(getMax < d[i]) {
+				getMax = d[i];
+			}
+		}
+		return getMax;
 	}
 }
