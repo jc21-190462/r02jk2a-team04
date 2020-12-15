@@ -9,6 +9,9 @@ class Kadai01Test {
 		Kadai01 k = new Kadai01();
 		assertNull(k.ReverseString(null));
 		assertEquals("4321",k.ReverseString("1234"));
+		assertEquals("",k.ReverseString(""));
+		assertEquals("int",k.ReverseString("tni"));
+		assertEquals("BbdD",k.ReverseString("DdbB"));
 	}
 
 }
