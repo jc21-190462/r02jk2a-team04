@@ -11,8 +11,8 @@ public class Kadai02 {
 	int countString(String s,char c) {
 		int count = 0;
 
-		for(char x: s.toCharArray()) {
-			if(x == c) {
+		for(char a: s.toCharArray()) {
+			if(a == c) {
 				count++;
 			}
 		}
